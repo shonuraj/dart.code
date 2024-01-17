@@ -1,23 +1,5 @@
-// import 'dart:io';
+ import 'dart:io';
 
- void main(){
-//  print("hii");
-// String name=("zain");
-// print(name);
-// int age=(19);
-// var date=(4,2004.29);
-// var cnic=("41304xxxxxxxxx");
-// print(name);
-// print(age);
-// print(date);
-// print(cnic); 
-//  bool j=true;
-// print(j);
-// int A=(43);
-// int B=(49);
-// print(A>B);
-// bool string=true;
-// print(string);
 
 // int totalamount =1250;
 // int hundredrem = totalamount % 100;
@@ -153,17 +135,35 @@
 // for(int a=0; a<=10;a++){
 //   print(a);
   
+
+//  for (int a=0;a<=10;a++){
+
+//  for (int b=0;b<=a;b++){
+ 
+// stdout.write(" + ");
+//  }
+// print("+");
+
+//  }
+//  for (int a=0;a<=10;a++){
+
+//  for (int b=0;b<=a;b++){
+ 
+// stdout.write(" _ ");
+//  }
+// print("_");
 // }
-  
-}
+void main(){
+ stdout.write('Enter first value : ');
+int num1=int.parse(stdin.readLineSync()!);
 
+stdout.write('Enter second value : ');
+int num2=int.parse(stdin.readLineSync()!);
 
+print(num1+ num2);
+print(num1- num2);
+print(num1/ num2);
+print(num1* num2);
+print(num1% num2);
 
-
-
-
-
-
-
-
-
+ }
